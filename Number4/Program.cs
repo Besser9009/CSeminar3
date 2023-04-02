@@ -1,0 +1,11 @@
+﻿Console.Clear();
+System.Console.Write("Введите значение x1: ");
+double NumX1 = Convert.ToDouble(Console.ReadLine());
+System.Console.Write("Введите значение y1: ");
+double NumY1 = Convert.ToDouble(Console.ReadLine());
+System.Console.Write("Введите значение x2: ");
+double NumX2 = Convert.ToDouble(Console.ReadLine());
+System.Console.Write("Введите значение y2: ");
+double NumY2 = Convert.ToDouble(Console.ReadLine());
+double distance = Math.Sqrt((NumX2 - NumX1)^2 + (NumY2 - NumY1)^2);
+Console.WriteLine(distance);
