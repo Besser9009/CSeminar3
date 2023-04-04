@@ -7,5 +7,5 @@ System.Console.Write("Введите значение x2: ");
 double NumX2 = Convert.ToDouble(Console.ReadLine());
 System.Console.Write("Введите значение y2: ");
 double NumY2 = Convert.ToDouble(Console.ReadLine());
-double distance = Math.Sqrt((NumX2 - NumX1)^2 + (NumY2 - NumY1)^2);
+double distance = Math.Sqrt(Math.Pow((NumX2 - NumX1),2) + Math.Pow((NumY2 - NumY1),2));
 Console.WriteLine(distance);
